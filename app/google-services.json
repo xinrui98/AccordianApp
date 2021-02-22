@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851198765234",
+    "firebase_url": "https://accordianapp-dfd8a-default-rtdb.firebaseio.com",
+    "project_id": "accordianapp-dfd8a",
+    "storage_bucket": "accordianapp-dfd8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851198765234:android:809171c7dda895bdb481ab",
+        "android_client_info": {
+          "package_name": "com.example.accordianapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851198765234-vr2p1q1npf79sjgg0itd7k4dfr002kr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi6oxIhZ3USNaq73S1BTQuODtU1O2UqYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851198765234-vr2p1q1npf79sjgg0itd7k4dfr002kr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
