@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() , UpdateAndDelete{
         database = FirebaseDatabase.getInstance().reference
         fab.setOnClickListener(){
             Toast.makeText(this,"button 1 clicked", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, Information::class.java)
+            val intent = Intent(this, InformationActivity::class.java)
             startActivity(intent)
         }
         //add item to TODO list
