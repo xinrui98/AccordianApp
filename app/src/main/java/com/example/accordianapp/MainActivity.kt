@@ -1,7 +1,9 @@
 package com.example.accordianapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.EditText
 import android.widget.ListView
 import android.widget.Toast
@@ -21,13 +23,17 @@ class MainActivity : AppCompatActivity() , UpdateAndDelete{
         setContentView(R.layout.activity_main)
 
         val fab = findViewById(R.id.fab) as FloatingActionButton
-
+        val button1 = findViewById<Button>(R.id.button1)
         listViewItem = findViewById(R.id.item_listview) as ListView
 
         database = FirebaseDatabase.getInstance().reference
-
+        fab.setOnClickListener(){
+            Toast.makeText(this,"button 1 clicked", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, Information::class.java)
+            startActivity(intent)
+        }
         //add item to TODO list
-        fab.setOnClickListener { view ->
+        button1.setOnClickListener { view ->
             val alertDialog = AlertDialog.Builder(this)
             val textEditText = EditText(this)
 //            alertDialog.setMessage("Add TODO item")

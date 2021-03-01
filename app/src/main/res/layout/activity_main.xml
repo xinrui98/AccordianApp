@@ -10,19 +10,40 @@
         android:id="@+id/item_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#696969"
+        android:background="#FAF4D3"
         android:paddingLeft="10dp"
-        android:scrollbars="none"
-        android:paddingRight="10dp"/>
+        android:paddingRight="10dp"
+        android:scrollbars="none" >
+
+
+    </ListView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:layout_gravity="bottom|end"
+        android:layout_gravity="bottom|left"
+        android:background="@android:drawable/ic_dialog_info"
         android:elevation="6dp"
+        android:foreground="@android:drawable/ic_dialog_info"
         android:src="@android:drawable/ic_input_add"
-        app:pressedTranslationZ="12dp"/>
+        app:backgroundTint="#040403"
+        android:layout_marginLeft="40dp"
+        android:layout_margin="20dp"
+        app:pressedTranslationZ="12dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:elevation="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_listview"
+        android:layout_alignLeft="@id/item_listview"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="40dp"
+        android:focusable="false"
+        android:text="Add a Package"
+        app:pressedTranslationZ="12dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
