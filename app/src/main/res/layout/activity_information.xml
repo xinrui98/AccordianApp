@@ -52,12 +52,12 @@
                 android:paddingEnd="15dp"
                 android:text="@string/instructions"/>
 
-<!--            <VideoView-->
-<!--                android:id="@+id/videoView"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="145dp"-->
-<!--                android:layout_margin="15dp"-->
-<!--                android:layout_gravity="bottom"/>-->
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="bottom"/>
 
         </androidx.cardview.widget.CardView>
 
