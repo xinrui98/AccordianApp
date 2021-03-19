@@ -1,20 +1,15 @@
 <resources>
     <string name="app_name">AccordianApp</string>
     <string name="instructions">
-        <b><i>Add a Package!</i></b>
-        <br></br><br></br>
-        <li> Simply tap the \'Add a Package\' Button to add the password of your delivery product (the last 4 digits of your delivery order). </li>
-        <br></br>
-        <li>The delivery man will also receive the 4 digits and be able to have a one-time access to the Accordion!</li>
-        <br></br>
-        <b><i>Watch a demo here:</i></b>
+        <b><i>Add a Package!\n\n</i></b>
+        <li>Simply tap the \'Add a Package\' Button to add the password of your delivery product (the last 4 digits of your delivery order).\n</li>
+        <li>The delivery man will also receive the 4 digits and be able to have a one-time access to the Accordion!\n\n</li>
+        <b><i>Watch a demo here:\n</i></b>
     </string>
     <string name="about_us">
-        <b><i>Delivery Enthusiasts</i></b>
-        <br>We are often not at home to receive our parcels, worse still, they sometimes get stolen!</br>
-        <br></br>
-        <br>Now, with the birth of Accordion, there is no need to fret about your delivery parcels, simply enter 4 digits, and let the app handle the rest!</br>
-        <br></br>
-        <br><b><i>The Accordion is simple to use, secure and makes your life hassle-free!</i></b></br>
+        <b><i>Delivery Enthusiasts\n</i></b>
+        <li>We are often not at home to receive our parcels, worse still, they sometimes get stolen! Now, with the Accordion, there is no need to fret about your delivery parcels,
+        simply enter 4 digits, and let the app handle the rest!</li>
+
     </string>
 </resources>
